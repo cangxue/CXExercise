@@ -69,16 +69,9 @@
         _pic = cachedImage;
         _canada.canada_img = cachedImage;
         CGSize size = cachedImage.size;
-        CGFloat width = kScreenWidth - 2*kCellTagPadding;
-        CGFloat height = width;
+        CGFloat width = 120;
+        CGFloat height = size.height *(width/size.width);
         
-        if (size.width < width) {
-            width = size.width;
-            height = size.height;
-        } else {
-            width = width;
-            height = size.height *(width/size.width);
-        }
         
         tempsize = CGSizeMake(width, height);
     }

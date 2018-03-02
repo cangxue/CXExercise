@@ -113,7 +113,7 @@ static NSString *const kCXCanadaCellIdentifier = @"CXCanadaCellID";
             NSMutableArray *tempArray = [NSMutableArray array];
             [tempArray addObjectsFromArray:[CXCanadaModel mj_objectArrayWithKeyValuesArray:responseObject[@"rows"]]];
             for (CXCanadaModel *model in tempArray) {
-                if (model.canada_title.length == 0 && model.description.length == 0 && model.canada_imageHref.length == 0) {
+                if (model.canada_title == nil && model.canada_description == nil && model.canada_imageHref == nil) {
                     NSLog(@"无效数据");
                 } else {
                     CXCanadaLayout *layout = [[CXCanadaLayout alloc] initWithCanada:model];

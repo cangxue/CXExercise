@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 862YF45JD7;
-				GCC_PREFIX_HEADER = /Users/xiaoma/GitHubLibrary/iOS/CXExercise/CXExercise/CXExercise/CXExerciseHeader.h;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CXExercise/CXExerciseHeader.h";
 				INFOPLIST_FILE = CXExercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -440,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 862YF45JD7;
-				GCC_PREFIX_HEADER = /Users/xiaoma/GitHubLibrary/iOS/CXExercise/CXExercise/CXExercise/CXExerciseHeader.h;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CXExercise/CXExerciseHeader.h";
 				INFOPLIST_FILE = CXExercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
